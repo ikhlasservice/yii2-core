@@ -1,34 +1,27 @@
 {
-    "name": "ikhlasservice/yii2-contract",
-    "description": "Yii2 for contract management system.",
+    "name": "ikhlasservice/yii2-core",
+    "description": "Yii2 for core management system.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/ikhlasservice/yii2-contract.git",
-        "issues": "https://github.com/ikhlasservice/yii2-contract/issues"
+        "source": "https://github.com/ikhlasservice/yii2-core.git",
+        "issues": "https://github.com/ikhlasservice/yii2-core/issues"
     },
     "authors": [
         {
-            "name": "Ikhlas Service",
+            "name": "Ikhlas Core",
             "email": "ahamad.jedu@gmail.com",
             "role" : "Developer"
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
         "andatech/yii2-core": "*"
     },
     "autoload": {
         "psr-4": {
-            "ikhlas\\contract\\": ""
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "ikhlas\\core\\": ""
         }
     }
 }
